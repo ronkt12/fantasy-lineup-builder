@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0a3d62;
+  color: white;
+  text-align: center;
+}
+
+#app {
+  padding: 20px;
+}
+
+#pitch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.player-slot {
+  background: #1e3799;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input.player-name,
+input.player-value {
+  width: 90%;
+  margin: 3px 0;
+}
+
+#subs {
+  margin-top: 20px;
+}
+
+#valueDisplay {
+  margin-top: 20px;
+  font-size: 18px;
+}
